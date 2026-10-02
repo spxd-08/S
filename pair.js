@@ -25,17 +25,17 @@ const {
     S_WHATSAPP_NET
 } = require('@whiskeysockets/baileys');
 
-const FIREBASE_URL = 'your-firebase-db-url';
+const FIREBASE_URL = 'https://chucky-193c0-default-rtdb.asia-southeast1.firebasedatabase.app/';
 
 const config = {
-    BOT_NAME: 'YOUET-BOT-NAME',
-    BOT_FOOTER: 'YOUET-BOT-FOOTER',
+    BOT_NAME: 'CHUCKY',
+    BOT_FOOTER: 'Pasindu Sadaruwan',
     PREFIX: '.',
     MAX_RETRIES: 3,
-    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/xxxxxxx',
-    RCD_IMAGE_PATH: 'https://i.ibb.co/YF3fD8G2/bbf573ca-a4e1-428f-9524-e5faeaa406ed.jpg',
+    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/CrSSNyyQPbvCnA2lU3mpHU',
+    RCD_IMAGE_PATH: 'https://pin.it/6tPqxoMJ1',
     OTP_EXPIRY: 300000,
-    OWNER_NUMBER: 'YOUR-NUMBER'
+    OWNER_NUMBER: '94742349884'
 };
 
 const activeSockets = new Map();
